@@ -1,0 +1,57 @@
+/*Organize na ordem do HTML, se o body vem primeiro coloque o body primeiro seguindo a ordem da pag*/
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+/*Css vai procurar todos os Strongs que tem " em " dentro*/
+em strong{
+    color:rgb(255,0,0);
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: white;
+    padding:20px;
+}
+
+/*Inline não altera espaçamento interno ou externo, inline-block bloqueia largura que você controla e deixa
+mexer em tudo*/
+
+/*inline block ocupa somente o tamnanho das coisas nao a linha toda*/
+
+ul{
+    display: inline-block;
+    /*Vertical align para tirar o alinhamento na parte de baixo, podemos esqcolher onde sera alinhado*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficios{
+    width: 50%;
+}
